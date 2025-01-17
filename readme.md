@@ -7,7 +7,8 @@
 </p>
 
 
-
+## 🌐 Web original
+- **Web de ejemplo:** [https://nft-clase-flex.vercel.app/#](#)
 
 ## 🌐 Enlaces de Entrega
 - **Repositorio en GitHub:** [https://github.com/CeciliaBPerdomo/NFTI](#)
