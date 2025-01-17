@@ -12,7 +12,7 @@
 
 ## 🌐 Enlaces de Entrega
 - **Repositorio en GitHub:** [https://github.com/CeciliaBPerdomo/NFTI](#)
-<!-- - **Deployment en Vercel:** [https://e2-navbar-plum.vercel.app/](#) -->
+- **Deployment en Vercel:** [https://nfti-taupe.vercel.app/](#)
 
 ¡Gracias por visitar este proyecto!
 
