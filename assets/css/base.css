@@ -20,3 +20,44 @@
     --fire: #ff6d00;
     --electric: #64d3ff;
   }
+
+  * { 
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  body{
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  html { 
+    scrollbar-width: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--background);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  label { 
+    cursor: pointer;
+  }
+
+  button {
+    cursor: pointer;
+  }
