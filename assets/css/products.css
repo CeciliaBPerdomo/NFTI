@@ -64,11 +64,12 @@
     justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
+    gap: 2.25rem;
 }
 
 #products>ul>li {
     background-color: var(--secondary);
-    padding: 1.25;
+    padding: 0.5rem;
     border-radius: 1rem;
     flex-direction: column;
     justify-content: center;
@@ -87,44 +88,87 @@
     width: 100%;
     height: 100%;
     object-fit: contain;
+    padding: 0.5rem;
 }
 
-#products>ul>li>ul {}
+#products>ul>li>ul {
+    padding: 0.75rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: flex-start;
+    align-content: flex-start;
+}
 
-#products>ul>li>ul>li {}
+#products>ul>li>ul>li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
-#products>ul>li>ul>li.info {}
+#products>ul>li>ul>li.info {
+    justify-content: space-between;
+}
 
-#products>ul>li>ul>li.info h3 {}
+#products>ul>li>ul>li.info h3 {
+    color: var(--text-white);
+    font-weight: 800;
+    font-size: 1.25rem;
+}
 
-#products>ul>li>ul>li.info p {}
+#products>ul>li>ul>li.info p {
+    color: var(--text-white);
+}
 
-#products>ul>li>ul>li.user {}
+/* #products>ul>li>ul>li.user {}
 
 #products>ul>li>ul>li.user picture {}
 
-#products>ul>li>ul>li.user picture img {}
+#products>ul>li>ul>li.user picture img {} */
 
-#products>ul>li>ul>li.user.user_data {}
+.user_data {
+    flex: 1;
+    padding: 0 0.25rem;
+}
 
-#products>ul>li>ul>li.user.user_data dt {}
+.user_data dt {
+    display: none;
+}
 
-#products>ul>li>ul>li.user.user_data dd {}
+.user_data dd {
+    color: var(--text-gray);
+}
 
-#products>ul>li>ul>li.user.user_price {}
+/* .user_price {} */
 
-#products>ul>li>ul>li.user.user_price dt {}
+.user_price dt {
+    display: none;
+}
 
-#products>ul>li>ul>li.user.user_price dd {}
+.user_price dd {
+    color: var(--text-white);
+    font-weight: 800;
+}
 
-#products>ul>li>ul>li.cart {}
+/* #products>ul>li>ul>li.cart {}
 
 #products>ul>li>ul>li.cart picture {}
 
-#products>ul>li>ul>li.cart picture img {}
+#products>ul>li>ul>li.cart picture img {} */
 
-#products>ul>li>ul>li.cart p {}
+#products>ul>li>ul>li.cart p {
+    flex: 1;
+    color: var(--text-white);
+    font-weight: 800;
+    padding: 0 0.25rem;
+}
 
-#products>ul>li>ul>li.cart form {}
+/* #products>ul>li>ul>li.cart form {} */
 
-#products>ul>li>ul>li.cart form button {}
+#products>ul>li>ul>li.cart form button {
+    cursor: pointer;
+    background-color: var(--primary);
+    color: var(--text-white);
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+}
