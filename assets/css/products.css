@@ -172,3 +172,12 @@
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
 }
+
+#products>form button {
+    /* cursor: pointer; */
+    background: none;
+    border: 1px solid var(--electric);
+    padding: 0.5rem 1.5rem;
+    color: var(--bg-white);
+    border-radius: 0.5rem;
+}
