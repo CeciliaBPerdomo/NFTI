@@ -4,25 +4,127 @@
     flex-direction: column;
     align-items: center;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-content: flex-start;
+    padding: 5rem 0;
+    gap: 1rem;
 }
 
-#products header {}
+#products header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: flex-start;
+    gap: 3rem;
+}
 
-#products header h2 {}
+#products header h2 {
+    font-weight: 800;
+    font-size: 2rem;
+    color: var(--text-white);
+}
 
-#products header form {}
+#products header form {
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    gap: 1rem;
+}
 
-#products header form input[type="radio"] {}
+#products header form input[type="radio"] {
+    display: none;
+}
 
-#products header form label {}
+#products header form label {
+    background-color: var(--btn-bg);
+    color: var(--text-white);
+    padding: 0.5rem 0.75rem;
+    border-radius: 0.75rem;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+#products header form label.active {
+    background-color: var(--primary);
+}
 
 /* #products header form input[type="radio"]:checked + label {} */
 
-#products>ul {}
+#products>ul {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-content: flex-start;
+}
 
-#products>ul>li {}
-#products>ul>li>picture {}
-#products>ul>li>picture img {}
-#products>ul>li> ul {}
-#products>ul>li> ul>li {}
+#products>ul>li {
+    background-color: var(--secondary);
+    padding: 1.25;
+    border-radius: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#products>ul>li>picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    aspect-ratio: 1/1;
+}
+
+#products>ul>li>picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#products>ul>li>ul {}
+
+#products>ul>li>ul>li {}
+
+#products>ul>li>ul>li.info {}
+
+#products>ul>li>ul>li.info h3 {}
+
+#products>ul>li>ul>li.info p {}
+
+#products>ul>li>ul>li.user {}
+
+#products>ul>li>ul>li.user picture {}
+
+#products>ul>li>ul>li.user picture img {}
+
+#products>ul>li>ul>li.user.user_data {}
+
+#products>ul>li>ul>li.user.user_data dt {}
+
+#products>ul>li>ul>li.user.user_data dd {}
+
+#products>ul>li>ul>li.user.user_price {}
+
+#products>ul>li>ul>li.user.user_price dt {}
+
+#products>ul>li>ul>li.user.user_price dd {}
+
+#products>ul>li>ul>li.cart {}
+
+#products>ul>li>ul>li.cart picture {}
+
+#products>ul>li>ul>li.cart picture img {}
+
+#products>ul>li>ul>li.cart p {}
+
+#products>ul>li>ul>li.cart form {}
+
+#products>ul>li>ul>li.cart form button {}
