@@ -1,0 +1,28 @@
+#products {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#products header {}
+
+#products header h2 {}
+
+#products header form {}
+
+#products header form input[type="radio"] {}
+
+#products header form label {}
+
+/* #products header form input[type="radio"]:checked + label {} */
+
+#products>ul {}
+
+#products>ul>li {}
+#products>ul>li>picture {}
+#products>ul>li>picture img {}
+#products>ul>li> ul {}
+#products>ul>li> ul>li {}
