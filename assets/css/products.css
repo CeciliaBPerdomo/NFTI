@@ -174,7 +174,6 @@
 }
 
 #products>form button {
-    /* cursor: pointer; */
     background: none;
     border: 1px solid var(--electric);
     padding: 0.5rem 1.5rem;
