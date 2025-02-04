@@ -1,4 +1,4 @@
-#info{
+#info {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -38,7 +38,7 @@
     height: 72px;
 }
 
-#info ul li article{
+#info ul li article {
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -46,4 +46,24 @@
     text-align: center;
     padding: 1rem;
     gap: 1rem;
- }
+}
+
+
+/* Responsive */
+@media (max-width:1032px) {
+    #info header h2 {
+        text-align: center;
+    }
+
+    #info ul {
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width:768px) {
+    #info ul {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+}

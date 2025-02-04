@@ -18,7 +18,9 @@ body>main {
 
 #content-hero h1 {
     font-size: 3rem;
-    font-weight: 800;
+    background-image: linear-gradient(to top, #30cfd0, #c43ad6);
+    background-clip: text;
+    color: transparent;
 }
 
 #content-hero p {
@@ -92,4 +94,21 @@ body>main {
 #card-hero ul li dl dd {
     font-size: 1rem;
     font-weight: 700;
+}
+
+/* Responsive */
+@media (max-width:1032px) {
+    #card-hero {
+        display: none;
+    }
+
+    #content-hero {
+        width: 50%;
+        align-items: center;
+        text-align: center;
+    }
+
+    #content-hero a {
+        align-self: center;
+    }
 }
