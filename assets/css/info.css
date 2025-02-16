@@ -11,6 +11,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    animation: slideUp 1s ease-out 300ms 1 forwards;
 }
 
 #info ul {
@@ -32,6 +33,18 @@
     justify-content: center;
     border-radius: 1rem;
     padding: 1rem;
+    opacity: 0;
+    transform: translateY(4rem);
+}
+
+#info ul li:nth-child(1) {
+    animation: slideUp 1s ease-out 325ms 1 forwards;
+}
+#info ul li:nth-child(2) {
+    animation: slideUp 1s ease-out 350ms 1 forwards;
+}
+#info ul li:nth-child(3) {
+    animation: slideUp 1s ease-out 375ms 1 forwards;
 }
 
 #info ul li picture {
