@@ -82,6 +82,13 @@
     justify-content: center;
     align-items: center;
     aspect-ratio: 1/1;
+    cursor: pointer;
+    transform: scale(0.98);
+    transition: all 250ms ease-in-out;
+}
+
+#products>ul>li>picture:hover {
+    transform: scale(1);
 }
 
 #products>ul>li>picture img {
@@ -171,6 +178,11 @@
     color: var(--text-white);
     padding: 0.5rem 1.5rem;
     border-radius: 0.5rem;
+    transition: all 250ms ease-in-out;
+}
+
+#products>ul>li>ul>li.cart form button:hover {
+    background-color: var(--fire);
 }
 
 #products>form button {
@@ -179,6 +191,13 @@
     padding: 0.5rem 1.5rem;
     color: var(--bg-white);
     border-radius: 0.5rem;
+    transition: all 250ms ease-in-out;
+}
+
+#products>form button:hover {
+    background-color: var(--electric);
+    border-color: transparent;
+    color: var(--background);
 }
 
 
@@ -196,7 +215,7 @@
     #products ul {
         justify-content: center;
     }
-}   
+}
 
 @media (max-width:768px) {
     #products header>form label {
