@@ -124,6 +124,20 @@ body>main {
     #content-hero a {
         align-self: center;
     }
+
+    /* 
+    Sin animacion en responsive
+    #content-hero h1 span::before {
+        transform: scaleX(0);
+        animatation: none;
+    }
+
+     #content-hero h1 span::after {
+        left: calc(100% + 0.25rem);
+        opacity: 0;
+        animatation: none;
+    }
+    */
 }
 
 
