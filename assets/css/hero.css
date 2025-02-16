@@ -151,3 +151,67 @@ body>main {
         transform: translateX(0);
     }
 }
+
+/* Typewrite */
+#content-hero h1 span {
+    position: relative;
+    background-image: linear-gradient(to top, #30cfd0, #c43ad6);
+    background-clip: text;
+    color: transparent;
+}
+
+#content-hero h1 span::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--background);
+    transform-origin: right;
+    animation: type 1s 1s steps(6) forwards;
+}
+
+#content-hero h1 span::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0.25rem;
+    height: 100%;
+    opacity: 0;
+    background-image: linear-gradient(to top, #30cfd0, #c43ad6);
+    animation: move 1s 1s steps(6) forwards, blink 500ms 1s infinite;
+}
+
+@keyframes type {
+    from {
+        transform: scaleX(1);
+    }
+
+    to {
+        transform: scaleX(0);
+    }
+}
+
+/* Animacion de la barrita */
+
+@keyframes move {
+    from {
+        left: 0;
+    }
+
+    to {
+        left: calc(100% + 0.25rem);
+    }
+}
+
+@keyframes blink {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
