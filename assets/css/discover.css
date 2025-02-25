@@ -7,6 +7,8 @@
     align-content: flex-start;
     gap: 3rem;
     padding-top: 3rem;
+    scroll-snap-align: start;
+    scroll-margin-top: 1rem;
 }
 
 #discover header {

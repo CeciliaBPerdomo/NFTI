@@ -7,6 +7,10 @@ body>main {
     padding: 4rem 1rem;
 }
 
+#hero{
+    scroll-snap-align: start;
+}
+
 #content-hero {
     width: 50%;
     display: flex;
